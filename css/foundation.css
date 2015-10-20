@@ -112,6 +112,10 @@ img {
 img {
   display: inline-block;
   vertical-align: middle; }
+.row .large-5.columns img {
+}
+.row .large-5.columns img {
+}
 
 textarea {
   height: auto;
@@ -167,7 +171,9 @@ select {
 .columns:last-child,
 .columns +
 .columns:last-child {
-  float: right; }
+	float: right;
+	text-align: center;
+}
 .column + .column.end,
 .columns + .column.end, .column +
 .columns.end,
@@ -3704,7 +3710,8 @@ blockquote p {
     font-size: 1.6875rem; }
 
   h4 {
-    font-size: 1.4375rem; }
+	font-size: large;
+}
 
   h5 {
     font-size: 1.125rem; }
