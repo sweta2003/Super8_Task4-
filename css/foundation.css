@@ -3511,7 +3511,7 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #2ba6cb;
+  color: #333333;
   line-height: inherit;
   text-decoration: none; }
   a:hover, a:focus {
@@ -3537,7 +3537,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  color: #222222;
+  color: #ffffff;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
