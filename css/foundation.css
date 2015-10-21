@@ -1,3 +1,21 @@
+meta.bodytext {
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #666666;
+    line-height: 16px;
+    text-align: justify;
+}
+meta.topbarbg {
+    background-color: #e1e1e1;
+}  
+meta.pagetitle {
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #aeaeae;
+}
+meta.footerbg {
+    background-color: #d1d1d1;
+}
 meta.foundation-version {
   font-family: "/5.5.3/"; }
 
@@ -910,10 +928,12 @@ select {
 
   .column,
   .columns {
-    position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    float: left; }
+	position: relative;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	float: left;
+	left: 0;
+}
 
   .large-1 {
     width: 8.33333%; }
