@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation | Welcome</title>
     <link rel="stylesheet" href="css/foundation.css" />
+   
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>		
@@ -246,15 +247,98 @@
 
        <div class="row">
         <hr/>
-        <div class="large-6 columns">
-          <h4>This is a content section.</h4>
-          <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-        </div>
-        <div class="large-6 columns">
-          <h4>This is a content section.</h4>
-          <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
-        </div>
-        </div>
+        <div class="large-12 columns">	
+        	<ul class="tabs" data-tab role="tablist">
+              <li class="tab-title active" role="presentation"><a href="#panel2-1" role="tab" tabindex="0" aria-selected="true" aria-controls="panel2-1">Details</a></li>
+              <li class="tab-title" role="presentation"><a href="#panel2-2" role="tab" tabindex="0" aria-selected="false" aria-controls="panel2-2">Ingredients</a></li>
+              <li class="tab-title" role="presentation"><a href="#panel2-3" role="tab" tabindex="0" aria-selected="false" aria-controls="panel2-3">Reviews</a></li>
+              <li class="tab-title" role="presentation"><a href="#panel2-4" role="tab" tabindex="0" aria-selected="false" aria-controls="panel2-4">Directions</a></li>
+            </ul>
+            <div class="tabs-content">
+              <section role="tabpanel" aria-hidden="false" class="content active" id="panel2-1">
+                <div id="divPromosPDetail" class="tabcontentPDetail" name="divPromosPDetail" style="display:block; visibility:visible">
+                <table id="TblProdForkPromo" width="100%">
+                	<tbody><tr>
+                    	<td class="contenttd"><p></p>
+                        	<p><span style="font-style: Italic;font-weight: normal;">Please Note:&nbsp; Product received may temporarily differ from image shown due to packaging update.&nbsp; </span></p>
+                            <p><span>Dietary Supplement</span></p><p><span style="font-style: Normal;font-weight: bold;">Improves Memory</span></p>
+                            <p><span>Supports Healthy Brain Function*</span></p>
+                            <ul start="2" style="list-style-type:disc">
+                            	<li value="2">
+                                	<span>Supports a Sharper Mind*</span>
+                                    </li>
+                                <li value="1"><span>Supports Clearer Thinking*</span></li>
+                                <li value="4"><span>Only One Capsule Per Day</span></li>
+                                <li value="3"><span>Safe &amp; Clinically Tested</span></li></ul>
+                            <p><span>As we age, we lose proteins that support our brain.*&nbsp; Prevagen® supplements these proteins during the natural process of aging.*</span></p>
+                            <p><span>Prevagen (apoeaquorin) is clinically shown to help with mild memory problems associated with aging.*</span></p>
+                            <p><span>Prevagen contains apoaequorin, a protein which uniquely supports critical brain functions.*&nbsp; In clinical studies Prevagen improved memory within 90 days.*</span></p>
+                            <p><span>Originally discovered in jellyfish, Prevagen is now made in a controlled scientific process.&nbsp; Developed by university researchers &amp; scientists in Madison, Wisconsin. </span></p>
+                            <p><span style="font-style: Normal;font-weight: bold;">Clinically Tested</span>
+                            <span><br></span>
+                            <span>In a computer assessed, double-blind, placebo controlled study, Prevagen improved memory.*</span></p>
+                            <p><span>Made without common allergens. </span></p>
+                            <p><span>888-565-5385</span></p>
+                            <p><span>*These statements have not been evaluated by the Food &amp; Drug Administration.&nbsp; This product is not intended to diagnose, treat, cure or prevent any disease. </span></p>
+                            <p></p>
+                            <p></p>
+                            </td></tr></tbody></table>
+                      <p></p>
+                      <table id="TblProdForkMfgGuarranty" width="100%" cellpadding="0" cellspacing="0" border="0">
+                      	<tbody><tr><td class="mfgguarranty"><span class="xxsmall"><p><span>©</span><span>Quincy BioScience</span></p></span></td></tr></tbody></table></div>
+              		</section>
+                <section role="tabpanel" aria-hidden="true" class="content" id="panel2-2">
+                  <style>.nutrition-facts {float:left; width:609px; font:normal 16px/17px Arial, Helvetica, sans-serif; color:#585858;}
+                          .nutrition-facts h3 { font-size:16px; font-weight:bold; margin:0 0 10px 0; padding:0}
+                          .orange-area{ padding:13px 0 9px 10px; background:#fbf8e7; font-size:12px; border:solid 1px #d7d7d7; border-bottom:0;}
+                          .orange-area p { margin: 0 0 5px 0; line-height:13px;}
+                          .TablerData{ margin:0; padding:0;  font:normal 12px/17px Arial, Helvetica, sans-serif; color:#585858;}
+                          .TablerData table { border:solid 1px #d7d7d7; border-bottom:0; border-left:0;}
+                          .TablerData table td, .TablerData table th { border:solid 1px #d7d7d7; border-top:0; border-right:0; padding:5px 11px;}
+                          .TablerData table th {background:#e2f4f9; font-weight:bold;  padding:7px 5px 8px 11px; text-align:left}
+                          .TablerData table th ~ th { text-align:center;}</style>
+                  <div class="productIngredients" id="prodIngd">
+                      <p>Other Ingredients: White Rice Flour, Sodium Chloride, Magnesium Stearate, Acetic Acid, TRIS Buffer, EDTA.</p>
+                  </div>
+                  <div class="nutrition-facts">
+                      <h3>Nutrition Facts</h3>
+                      <div class="orange-area">
+                          <p><strong>Serving Size:</strong> 1capsule</p>
+                          <p><strong>Servings Per Container:</strong>  30</p>
+                          <p><strong>Variation:</strong> </p>		
+                      </div>
+                      <div class="TablerData">
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tbody><tr>
+                            <th width="360">Nutrient</th>
+                            <th width="141">Amount per Serving</th>
+                            <th width="103">% Daily Value</th>
+                          </tr>
+                          <tr>	
+                              <td>	Apoaequorin</td>
+                              <td align="center"> 
+                              10mg</td>
+                          <td align="center"></td>
+                          </tr>
+                          </tbody></table>
+                      </div>	
+                      <style type="text/css">.nutri-facts td,.nutri-facts th{border:1px solid #ddd;}
+                          .nutri-facts th {background-color:#F8E0F7;}
+                          .nutri-facts .bold{font-weight:bold;}
+                          .nutri-facts .center{text-align:center}
+                          .nutri-facts{width:600px;text-align:left;border-width: 0 0 1px 1px;border-spacing: 0;border-collapse: collapse;border-style: solid;}</style>
+                  </div>
+                </section>
+              <section role="tabpanel" aria-hidden="true" class="content" id="panel2-3">
+                <h2>Third panel content goes here...</h2>
+              </section>
+              <section role="tabpanel" aria-hidden="true" class="content" id="panel2-4">
+                <h2>Fourth panel content goes here...</h2>
+              </section>
+            </div>
+        </div>  
+  </div> 
+
 
         <div class="row">
         <hr>
@@ -263,7 +347,7 @@
           <img src="images/vitamin1_related1.jpg" width = 200 >
           <img src="images/vitamin1_related2.jpg" width = 200 >
           <img src="images/vitamin1_related3.jpg" width = 200 >
-          <img src="images/vitamin1_related4.jpg" width = 200
+          <img src="images/vitamin1_related4.jpg" width = 200 >
         </div>
         </div>
 
@@ -284,6 +368,6 @@
             </div>
           </div>
         </div>
-        </footer>          
+        </footer>
 </body>
 </html>
