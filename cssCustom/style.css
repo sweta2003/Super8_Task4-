@@ -33,7 +33,7 @@ img{
 #accordian .step{
   width:100%;
   height:63px;
-  background:#d3d3d3;
+  background:#333333;
   color:#FFF;
   padding-left:1%;
   padding-top:5px;
@@ -94,26 +94,26 @@ img{
 #accordian .content button{
   display:block;
   float:right;
-  background:#80c0ff;
+  background:#333333;
   width:200px;
   border:0;
   padding:5px 15px;
   font-size:1.6em;
   color:#FFF;
-  border-bottom:3px solid #4da7ff;
+  border-bottom:3px solid #333333;
   border-radius:2px;
   clear:both;
 }
 #accordian .content .continue{
   display:block;
   float:right;
-  background:#80c0ff;
+  background:#333333;
   width:200px;
   border:0;
   padding:5px 15px;
   font-size:1.6em;
   color:#FFF;
-  border-bottom:3px solid #4da7ff;
+  border-bottom:3px solid #333333;
   border-radius:2px;
   clear:both;
   text-align:center;
@@ -140,7 +140,7 @@ img{
 }
 #accordian .country_options label,
 #accordian .state_options label{
-  background: #80c0ff;
+  background: #333333;
   color: white;
   padding: 4px 6px;
   z-index: 2;
@@ -213,7 +213,7 @@ form.go-right input:focus + label.same{
 }
 #accordian #payment label.exp_date{
   margin-right:0;
-  background: #80c0ff;
+  background: #333333;
   color: white;
   padding: 4px 6px;
   z-index: 2;
@@ -393,9 +393,9 @@ form.go-right input:focus + label.same{
   color:#fff;
   font-size:2em;
   text-decoration: none;
-  background:#80c0ff;
+  background:#333333;
   text-align:center;
-  border-bottom: 3px solid #4da7ff;
+  border-bottom: 3px solid #333333;
   border-radius: 2px;
 }
 
@@ -439,7 +439,7 @@ form input:focus, form textarea:focus {
   border-color: #f06d06;
 }
 form input:focus + label, form textarea:focus + label {
-  background:#80c0ff;
+  background:#333333;
   color: white;
   font-size: 70%;
   padding: 1px 6px;
@@ -510,7 +510,7 @@ form.go-right input:focus + label, form.go-right textarea:focus + label {
   padding-top:3px;
   display: inline-block;
   text-indent: 13px;
-  background:#80c0ff;
+  background:#333333;
   border-radius:15px;
   transition: all 0.1s ease-in .1s;
 }
@@ -521,11 +521,11 @@ form.go-right input:focus + label, form.go-right textarea:focus + label {
   content: 'Ship To This Address';
   text-indent: 7px;
   margin-left: 50%;
-  background:#80c0ff;
+  background:#333333;
   border-radius:15px;
 }
 #accordian #shipping input[type=radio]:checked {
-  box-shadow: inset 0px 0px 0px 20px #80c0ff;
+  box-shadow: inset 0px 0px 0px 20px #333333;
 }
 #accordian #shipping input[type=radio]:after {
   content: '';
