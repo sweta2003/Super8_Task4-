@@ -5,10 +5,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>UPMC | Cart</title>
 <link rel="stylesheet" href="css/foundation.css" />
+<script>
+function multiply() {
+	alert('hi');
+
+	var objtxtNumber = document.getElementById(quantityBox);
+	var tot = objtxtNumber.value * price;
+	alert(tot);
+	totalObj = document.getElementById(total);
+	totalObj.innerHTML = <div style='text-align:center; padding-top:200px; color:#006699'>;
+	totalObj.style.display = 'block';
+	
+	
+}
+</script>
 <script src="js/vendor/modernizr.js"></script>
+<script src="js/vendor/modernizr.js"></script>
+<script type="text/javascript" src ="../Super8_Task4-/js/test.js"></script>
+
 </head>
 
 <body>
+
 <!- top bar>
 <div class="large-12 columns">
   <div class="row">
@@ -106,7 +124,8 @@
             <p>$13.99</p>
           </div>
           <div class="small-2 columns" style="align-self:flex-start">
-            <input type="number" placeholder="1" min="1" max="99" contenteditable="false" />
+           <!-- <input id="quantityBox"  type="number" placeholder="1" min="1" max="99" contenteditable="false" onBlur="alert("hi");" />-->
+           <input id="quantiBox"  type="number" onBlur="multiply()" />
           </div>
         </div>
         <hr/>
@@ -123,7 +142,7 @@
           </div>
         </div>
         <hr/>
-        <h5 class="content"> Total: $27.98</h5>
+        <h5 class="content"> <div id="total" style="display:none"></div></h5>
         <hr/>
         <a href="#" class="button">Check Out</a> </div>
       <div class="row">
