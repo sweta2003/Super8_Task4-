@@ -6,17 +6,22 @@
 <title>UPMC | Cart</title>
 <link rel="stylesheet" href="css/foundation.css" />
 <script>
-function multiply() {
-	alert('hi');
-
-	var objtxtNumber = document.getElementById(quantityBox);
-	var tot = objtxtNumber.value * price;
-	alert(tot);
-	totalObj = document.getElementById(total);
-	totalObj.innerHTML = <div style='text-align:center; padding-top:200px; color:#006699'>;
+function multiply(quantiBox1,quantiBox2,total) {
+	
+	var objtxtNumber1 = document.getElementById(quantiBox1);
+	
+	var objtxtNumber2 = document.getElementById(quantiBox2);
+	var a = objtxtNumber2.value;
+	if(a.length==0) {
+		a = 1;
+	}
+	var tot = objtxtNumber1.value * 13.99; 
+	var tot1 = a * 13.99;
+	var tot2 = tot + tot1;
+	var totalObj = document.getElementById(total);
+	totalObj.style.color = 'black';
+	totalObj.innerHTML = "$"+tot2;
 	totalObj.style.display = 'block';
-	
-	
 }
 </script>
 <script src="js/vendor/modernizr.js"></script>
@@ -125,7 +130,7 @@ function multiply() {
           </div>
           <div class="small-2 columns" style="align-self:flex-start">
            <!-- <input id="quantityBox"  type="number" placeholder="1" min="1" max="99" contenteditable="false" onBlur="alert("hi");" />-->
-           <input id="quantiBox"  type="number" onBlur="multiply()" />
+           <input id="quantiBox1"  type="number" placeholder="1" min="1" max="99" contenteditable="false" onBlur="multiply('quantiBox1','quantiBox2','total')" />
           </div>
         </div>
         <hr/>
@@ -138,11 +143,11 @@ function multiply() {
             <p>$13.99</p>
           </div>
           <div class="small-2 columns" style="align-self:flex-start">
-            <input type="number" placeholder="1" min="1" max="99" contenteditable="false" />
+            <input id="quantiBox2" type="number" placeholder="1" min="1" max="99" contenteditable="false" onBlur="multiply('quantiBox1', 'quantiBox2','total')"/>
           </div>
         </div>
         <hr/>
-        <h5 class="content"> <div id="total" style="display:none"></div></h5>
+        <h5 class="content"> <div id="total" style="display:block; color:black;" >$27.98</div></h5>
         <hr/>
         <a href="#" class="button">Check Out</a> </div>
       <div class="row">
